@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none
 }
 @import'./secciones/body';
 @import'./secciones/header';
 @import'./secciones/footer';
+@import'./secciones/bootstrap';
+@import'./secciones/variables';
 
 
 
@@ -39,11 +42,12 @@ header{
     }
     
     header h1 a:hover{
-        color:rgb(68, 206, 34);
+        background-color: #105c3c;
+        color:rgb(104, 255, 66);
         font-weight: bolder;
     } a{ 
         text-decoration: none;
-        color: #3f8f35;
+        color: #79f569;
         font-size: 1.9em;
         font-weight: bold;
         font-family: 'Montserrat', sans-serif;
@@ -100,7 +104,8 @@ main h2{
     font-size: 21px;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #299f11;
+        color: #79f569;
+    
 }
 
 .casaDecoration {
@@ -147,7 +152,7 @@ img{
 
 /* footer */
 .footerGrid{
-    color: #3f8f35;
+        color: #79f569;
     font-size: small;
     grid-area: footerGrid;
     text-align: center;
@@ -354,12 +359,9 @@ img{
 }
 
 .botones {
-    background-color: #166d3b;
+        color: #79f569;
+        background-color: #166d3b;
     color: #000000;
 }
 
-.card-text-center{background-color: #000000;}
-.card-body {background-color: #000000;}
-.nav-item {background-color: #000000;}
-.card-header {background-color: #000000;}
-.nav-link {background-color: #000000;}
+

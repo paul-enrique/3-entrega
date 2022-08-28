@@ -1,13 +1,17 @@
 
 /* footer */
 .footerGrid{
-    color: #3f8f35;
+    
+    text-decoration: none;
+    text-underline-offset: none;
+    color: yellow;
     font-size: small;
     grid-area: footerGrid;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 15px;
     text-decoration: none;
+    background-color: black;
 }
 
 
