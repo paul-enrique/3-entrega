@@ -9,7 +9,6 @@
 @import'./secciones/header';
 @import'./secciones/footer';
 @import'./secciones/bootstrap';
-@import'./secciones/variables';
 
 
 
@@ -35,7 +34,7 @@
 
 /* header */
 header{
-    background: linear-gradient(to right, #414141 0%, #000000 100%); 
+    background: linear-gradient(to right, #222222 0%, #000000 100%); 
     header h1{
         padding: 15px 2px;
         
