@@ -1,9 +1,17 @@
-/* reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none; }
+.card-text-center {
+  background-color: #000000; }
+
+.card-body {
+  background-color: #000000; }
+
+.nav-item {
+  background-color: #000000; }
+
+.card-header {
+  background-color: #000000; }
+
+.nav-link {
+  background-color: #000000; }
 
 /* mobile first */
 body {
@@ -85,6 +93,13 @@ nav a {
 .nav-link {
   background-color: #000000; }
 
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
 /* header */
 header {
   background: linear-gradient(to right, #222222 0%, #000000 100%); }
@@ -93,7 +108,10 @@ header {
   header header h1 a:hover {
     background-color: #105c3c;
     color: #68ff42;
-    font-weight: bolder; }
+    font-weight: bolder;
+    width: 100%;
+    height: 100%;
+    animation: pulse 5s infinite; }
   header a {
     text-decoration: none;
     color: #79f569;
@@ -192,10 +210,14 @@ img {
 @media only screen and (min-width: 600px) {
   .contBody {
     display: grid;
-    grid-template-areas: "headerGrid headerGrid" "mainGrid mainGrid" "footerGrid footerGrid"; }
+    grid-template-areas: "headerGrid headerGrid"
+ "mainGrid mainGrid"
+ "footerGrid footerGrid"; }
   .contBodyNosotros {
     display: grid;
-    grid-template-areas: "headerGrid" "mainGridNosotros" "footerGrid"; }
+    grid-template-areas: "headerGrid"
+ "mainGridNosotros"
+ "footerGrid"; }
   /* header */
   .navBar {
     display: flex;
@@ -217,7 +239,11 @@ img {
   .mainGrid {
     color: #f3f7f2;
     display: grid;
-    grid-template-areas: "h2 h2" "casa1 casa1Img" "casa1Text casa1Img" "casa2Img casa2" "casa2Img casa2Text"; }
+    grid-template-areas: "h2 h2"
+ "casa1 casa1Img"
+ "casa1Text casa1Img"
+ "casa2Img casa2"
+ "casa2Img casa2Text"; }
   h2 {
     padding-bottom: 30px; }
   .h2 {
@@ -282,6 +308,8 @@ img {
     font-size: 20px; }
   .formulario {
     display: flex;
+    width: auto;
+    padding: 0px;
     justify-content: center;
     padding: 50px;
     color: #ffffff; } }
@@ -293,3 +321,30 @@ img {
   color: #79f569;
   background-color: #166d3b;
   color: #000000; }
+
+
+  
+  .fa-1x {
+    font-size: 1.5rem;
+    background-color: black;
+  }
+  .navbar-toggler.toggler-example {
+    background-color: #000000;
+    cursor: pointer;
+  }
+  .dark-blue-text {
+    color: #11a118;
+  }
+  .dark-pink-text {
+    color: #AC003A;
+  }
+  .dark-amber-text {
+    color: #ff6f00;
+  }
+  .dark-teal-text {
+    color: #004d40;
+  }
+
+  .hamBar{
+    background: linear-gradient(to right, #181717 0%, #000000 100%);;
+  }
