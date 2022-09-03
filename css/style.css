@@ -58,7 +58,6 @@ nav a {
   padding: 5px 12px;
   font-weight: bold;
   display: inline-block; }
- 
 
 /* footer */
 .footerGrid {
@@ -76,10 +75,8 @@ nav a {
 .formulario {
   display: flex;
   justify-content: center;
+  padding: 50px;
   color: #ffffff; }
-  .hamBar {
-    background: linear-gradient(to right, #181717 0%, #000000 100%); 
-  width: 100%;}
 
 .card-text-center {
   background-color: #000000; }
@@ -207,28 +204,17 @@ img {
   display: flex;
   width: auto;
   justify-content: center;
-
+  padding: 50px;
   color: #ffffff; }
-  .oficinasMap {
-    width: 100%;
-    margin: 9px;
-    color: #ffffff; }
-    .hamBar {
-      background: linear-gradient(to right, #181717 0%, #000000 100%); 
-    width: 100%;}
 
 /* media querie tablet */
 @media only screen and (min-width: 600px) {
   .contBody {
     display: grid;
-    grid-template-areas: "headerGrid headerGrid"
- "mainGrid mainGrid"
- "footerGrid footerGrid"; }
+    grid-template-areas: "headerGrid headerGrid" "mainGrid mainGrid" "footerGrid footerGrid"; }
   .contBodyNosotros {
     display: grid;
-    grid-template-areas: "headerGrid"
- "mainGridNosotros"
- "footerGrid"; }
+    grid-template-areas: "headerGrid" "mainGridNosotros" "footerGrid"; }
   /* header */
   .navBar {
     display: flex;
@@ -250,11 +236,7 @@ img {
   .mainGrid {
     color: #f3f7f2;
     display: grid;
-    grid-template-areas: "h2 h2"
- "casa1 casa1Img"
- "casa1Text casa1Img"
- "casa2Img casa2"
- "casa2Img casa2Text"; }
+    grid-template-areas: "h2 h2" "casa1 casa1Img" "casa1Text casa1Img" "casa2Img casa2" "casa2Img casa2Text"; }
   h2 {
     padding-bottom: 30px; }
   .h2 {
@@ -301,15 +283,8 @@ img {
     display: flex;
     width: auto;
     justify-content: center;
-    
+    padding: 50px;
     color: #ffffff; } }
-    .oficinasMap {
-      width: 100%;
-      margin: 9px;
-      color: #ffffff; }
-      .hamBar {
-        background: linear-gradient(to right, #181717 0%, #000000 100%); 
-      width: 100%;}
 
 /* media querie desktop */
 @media only screen and (min-width: 1024px) {
@@ -328,13 +303,10 @@ img {
   .formulario {
     display: flex;
     width: auto;
+    padding: 0px;
     justify-content: center;
     padding: 50px;
     color: #ffffff; } }
-    .oficinasMap {
-      width: 100%;
-      margin: 9px;
-      color: #ffffff; }
 
 .card text-center {
   background-color: #000000; }
@@ -365,6 +337,4 @@ img {
   color: #004d40; }
 
 .hamBar {
-  background: linear-gradient(to right, #181717 0%, #000000 100%); 
-width: 100%;}
-  
+  background: linear-gradient(to right, #181717 0%, #000000 100%); }
