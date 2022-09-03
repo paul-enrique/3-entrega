@@ -75,7 +75,7 @@ nav a {
 .formulario {
   display: flex;
   justify-content: center;
-  padding: 50px;
+ 
   color: #ffffff; }
 
 .card-text-center {
@@ -204,17 +204,21 @@ img {
   display: flex;
   width: auto;
   justify-content: center;
-  padding: 50px;
+
   color: #ffffff; }
 
 /* media querie tablet */
 @media only screen and (min-width: 600px) {
   .contBody {
     display: grid;
-    grid-template-areas: "headerGrid headerGrid" "mainGrid mainGrid" "footerGrid footerGrid"; }
+    grid-template-areas: "headerGrid headerGrid"
+ "mainGrid mainGrid"
+ "footerGrid footerGrid"; }
   .contBodyNosotros {
     display: grid;
-    grid-template-areas: "headerGrid" "mainGridNosotros" "footerGrid"; }
+    grid-template-areas: "headerGrid"
+ "mainGridNosotros"
+ "footerGrid"; }
   /* header */
   .navBar {
     display: flex;
@@ -236,7 +240,11 @@ img {
   .mainGrid {
     color: #f3f7f2;
     display: grid;
-    grid-template-areas: "h2 h2" "casa1 casa1Img" "casa1Text casa1Img" "casa2Img casa2" "casa2Img casa2Text"; }
+    grid-template-areas: "h2 h2"
+ "casa1 casa1Img"
+ "casa1Text casa1Img"
+ "casa2Img casa2"
+ "casa2Img casa2Text"; }
   h2 {
     padding-bottom: 30px; }
   .h2 {
@@ -283,7 +291,7 @@ img {
     display: flex;
     width: auto;
     justify-content: center;
-    padding: 50px;
+ 
     color: #ffffff; } }
 
 /* media querie desktop */
@@ -303,9 +311,9 @@ img {
   .formulario {
     display: flex;
     width: auto;
-    padding: 0px;
+
     justify-content: center;
-    padding: 50px;
+
     color: #ffffff; } }
 
 .card text-center {
