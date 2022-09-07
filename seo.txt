@@ -21,3 +21,4 @@ proyecto “FLEXO” y la principal descripción de cada página web.
 optimizada para una fácil navegación.
 ● Sitemap para buscadores: Se generó un archivo XML mediante la página
 xml-sitemaps.
+ok
