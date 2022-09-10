@@ -42,6 +42,7 @@ header{
     }
     
     header h1 a:hover{
+        @extend header;
         background-color: #105c3c;
         color:rgb(104, 255, 66);
         font-weight: bolder;
@@ -49,6 +50,7 @@ header{
         height: 100%;
         animation: pulse 5s infinite;
     } a{ 
+        @extend header;
         text-decoration: none;
         color: #79f569;
         font-size: 1.9em;
@@ -73,6 +75,7 @@ header{
 }
 
 nav{
+    @extend nav;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -80,10 +83,12 @@ nav{
 }
 
 nav ul li{
+    @extend nav;
     list-style: none;
 }
 
 nav a{
+    @extend nav;
     text-decoration: none;
     color: #f3f7f2;
     padding: 5px 12px;
@@ -102,6 +107,7 @@ main{
 }
 
 main h2{
+    @extend main;
     text-align: center;
     font-weight: bold;
     font-size: 21px;
@@ -212,12 +218,14 @@ img{
     }
     
     nav ul{
+        @extend nav;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
     
-    nav a{
+    nav a
+    {@extend nav;
         font-size: 15px;
     }
 
